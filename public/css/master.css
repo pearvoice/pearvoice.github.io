@@ -60,7 +60,7 @@ a:hover {
   bottom: 3%;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
   width: 80%;
   padding: 10px;
 }
@@ -76,7 +76,9 @@ a:hover {
 }
 
 #appstore {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 135px;
   height: 47px;
   background-size: 135px 47px;
   background-image: url("../img/appstore.png");
